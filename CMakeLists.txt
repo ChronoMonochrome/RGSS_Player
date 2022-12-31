@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(hello)
+project(rgss_player)
 
 include(FetchContent)
 
@@ -10,4 +10,4 @@ FetchContent_Declare(fmt
 )
 FetchContent_MakeAvailable(fmt)
 
-add_subdirectory(hello)
+add_subdirectory(rgss_player)
